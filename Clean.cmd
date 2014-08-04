@@ -8,6 +8,7 @@ rmdir /S /Q packages
 rmdir /S /Q %APP_PATH%\bin
 rmdir /S /Q %APP_PATH%\obj
 rmdir /S /Q %APP_PATH%\Properties
+rmdir /S /Q MusicStore-VS2014-CTP2.sln.ide
 del %APP_PATH%\*.csproj
 del %APP_PATH%\*.v12.suo
 del %APP_PATH%\*.csproj.user
